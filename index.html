@@ -1,89 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Ledger Lala</title>
-  <style>
-    body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-           max-width: 760px; margin: 40px auto; padding: 0 20px; color: #1e293b; line-height: 1.6; }
-    h1 { color: #7c8cf8; }
-    h2 { margin-top: 28px; color: #334155; }
-    a { color: #7c8cf8; }
-    .muted { color: #64748b; }
-    code { background: #eef2ff; padding: 1px 5px; border-radius: 4px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ledger Lala - Support Center</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 500px;
+            padding: 40px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .logo {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .privacy-btn {
+            background-color: #2563eb;
+        }
+
+        .privacy-btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        .delete-btn {
+            background-color: #dc2626;
+        }
+
+        .delete-btn:hover {
+            background-color: #b91c1c;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #888;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+
+            .logo {
+                font-size: 50px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Privacy Policy — Ledger Lala</h1>
-  <p class="muted"><strong>Last updated: 20 June 2026</strong></p>
 
-  <p>This Privacy Policy explains how <strong>Ledger Lala</strong> ("the App", "we", "us")
-  collects, uses, and protects your information. By using the App you agree to this policy.</p>
-  <p class="muted">Replace the bracketed placeholders before publishing:
-  <code>Tushar Gupta</code>, <code>tushargupta9412@gmail.com</code>, <code>Uttar Pradesh, India</code>.</p>
+    <div class="container">
+        <div class="logo">📒</div>
 
-  <h2>Who we are</h2>
-  <p>Ledger Lala is a business ledger app that helps distributors manage retailers,
-  credit/debit entries, product replacements, orders, staff, and disputes, and lets
-  retailers and staff view and act on that data. The App is operated by
-  <strong>Tushar Gupta</strong>.</p>
+        <h1>Ledger Lala</h1>
 
-  <h2>Information we collect</h2>
-  <ul>
-    <li><strong>Account &amp; profile:</strong> mobile number, email address, name,
-        business/shop name, and address.</li>
-    <li><strong>Business records you enter:</strong> retailers, credit/debit ledger entries
-        and amounts, replacements, orders, shortages, and disputes — this may include
-        <strong>financial information</strong> about your business relationships.</li>
-    <li><strong>Staff data:</strong> name, mobile, email, designation, permissions for
-        staff you add.</li>
-    <li><strong>Device &amp; push:</strong> a push notification identifier (via OneSignal)
-        and basic technical data needed for the app to function.</li>
-  </ul>
-  <p>We do <strong>not</strong> collect precise location, contacts, or advertising identifiers.</p>
+        <p>
+            Welcome to the Ledger Lala Support Center.
+            Access our Privacy Policy or request account deletion using the links below.
+        </p>
 
-  <h2>How we use your information</h2>
-  <ul>
-    <li>To provide core features: authentication, ledgers, replacements, orders, staff and
-        catalog management, and statements/PDF exports.</li>
-    <li>To send notifications about activity relevant to you.</li>
-    <li>To secure accounts and prevent misuse.</li>
-  </ul>
-  <p>We do <strong>not</strong> sell your personal information or use it for advertising.</p>
+        <a href="privacy-policy.html" class="btn privacy-btn">
+            📜 Privacy Policy
+        </a>
 
-  <h2>How your data is stored and shared</h2>
-  <p>Your data is stored in <strong>Google Firebase</strong> (Authentication, Cloud
-  Firestore, Cloud Storage). Push notifications are delivered through <strong>OneSignal</strong>.
-  These providers process data on our behalf:</p>
-  <ul>
-    <li>Google Firebase — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
-    <li>OneSignal — <a href="https://onesignal.com/privacy_policy">onesignal.com/privacy_policy</a></li>
-  </ul>
-  <p>Data is transmitted over encrypted (HTTPS/TLS) connections and shared only with these
-  providers or where required by law.</p>
+        <a href="account-deletion.html" class="btn delete-btn">
+            🗑️ Account Deletion Request
+        </a>
 
-  <h2>Data retention &amp; deletion</h2>
-  <p>We keep your data while your account is active. To request access or deletion of your
-  account and data, email <strong>[contact email]</strong>. We action verified requests within
-  a reasonable period, subject to legal record-keeping obligations.</p>
+        <div class="footer">
+            © 2026 Ledger Lala. All Rights Reserved.
+        </div>
+    </div>
 
-  <h2>Security</h2>
-  <p>We use industry-standard measures (encrypted transport, managed cloud infrastructure,
-  authentication). No method is 100% secure, but we work to protect your information.</p>
-
-  <h2>Children</h2>
-  <p>The App is intended for business users and is <strong>not directed to children under 18</strong>.</p>
-
-  <h2>Your rights</h2>
-  <p>You may have rights to access, correct, export, or delete your data and to withdraw
-  consent. Contact us to exercise these rights.</p>
-
-  <h2>Changes to this policy</h2>
-  <p>We may update this policy; material changes will be reflected by updating the date above.</p>
-
-  <h2>Contact</h2>
-  <p>Questions or requests: <strong>tushargupta9412@gmail.com</strong><br />
-  Operated by <strong>Tushar Gupta</strong>, <strong>Uttar Pradesh, India</strong>.</p>
 </body>
 </html>
